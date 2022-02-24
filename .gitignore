@@ -1,108 +1,25 @@
-## Core latex/pdflatex auxiliary files:
+# ignore various files generated
+# by LaTeX and related tools
+
+# core latex/pdflatex auxiliary files
 *.aux
+*.fls
 *.lof
 *.log
 *.lot
-*.fls
-*.out
+*.lox
 *.toc
-*.fmt
-*.fot
-*.cb
-*.cb2
-.*.lb
 
-## Intermediate documents:
-*.dvi
-*.xdv
-*-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
-
-## Generated if empty string is given at "Please type another file name for output:"
-.pdf
-
-## Bibliography auxiliary files (bibtex/biblatex/biber):
+# bibliography auxiliary files (bibtex/biblatex/biber)
 *.bbl
 *.bcf
 *.blg
 *-blx.aux
 *-blx.bib
 *.run.xml
+*Notes.bib
 
-## Build tool auxiliary files:
-*.fdb_latexmk
-*.synctex
-*.synctex(busy)
-*.synctex.gz
-*.synctex.gz(busy)
-*.pdfsync
-
-## Build tool directories for auxiliary files
-# latexrun
-latex.out/
-
-## Auxiliary and intermediate files from other packages:
-# algorithms
-*.alg
-*.loa
-
-# achemso
-acs-*.bib
-
-# amsthm
-*.thm
-
-# beamer
-*.nav
-*.pre
-*.snm
-*.vrb
-
-# changes
-*.soc
-
-# comment
-*.cut
-
-# cprotect
-*.cpt
-
-# elsarticle (documentclass of Elsevier journals)
-*.spl
-
-# endnotes
-*.ent
-
-# fixme
-*.lox
-
-# feynmf/feynmp
-*.mf
-*.mp
-*.t[1-9]
-*.t[1-9][0-9]
-*.tfm
-
-#(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
-*.[1-9]
-*.[1-9][0-9]
-*.[1-9][0-9][0-9]
-*.[1-9]R
-*.[1-9][0-9]R
-*.[1-9][0-9][0-9]R
-*.eledsec[1-9]
-*.eledsec[1-9]R
-*.eledsec[1-9][0-9]
-*.eledsec[1-9][0-9]R
-*.eledsec[1-9][0-9][0-9]
-*.eledsec[1-9][0-9][0-9]R
-
-# glossaries
+# glossary
 *.acn
 *.acr
 *.glg
@@ -112,165 +29,45 @@ acs-*.bib
 *.lzo
 *.lzs
 
-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
-# *.ist
-
-# gnuplottex
-*-gnuplottex-*
-
-# gregoriotex
-*.gaux
-*.gtex
-
-# htlatex
-*.4ct
-*.4tc
-*.idv
-*.lg
-*.trc
-*.xref
-
-# hyperref
-*.brf
-
-# knitr
-*-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
-*.tikz
-*-tikzDictionary
-
-# listings
-*.lol
-
-# luatexja-ruby
-*.ltjruby
-
-# makeidx
+# index
 *.idx
 *.ilg
 *.ind
 
-# minitoc
-*.maf
-*.mlf
-*.mlt
-*.mtc[0-9]*
-*.slf[0-9]*
-*.slt[0-9]*
-*.stc[0-9]*
+# MetaPost
+*.mpx
+mptextmp.mp
+mptextemp.mp
+mpxerr.mp
+mpxerr.tex
 
-# minted
-_minted*
-*.pyg
+# build tool and intermediate files
+*.dvi
+*.fdb_latexmk
+*.pdfsync
+*.synctex*
+*.xdv
+*-converted-to.*
 
-# morewrites
-*.mw
+# other
+*~
+.DS_Store
+*.bk
+*.out
+*.swp
+*.tmp
 
-# nomencl
-*.nlg
-*.nlo
-*.nls
+# directories
+_*/
+tmp/
 
-# pax
-*.pax
+# ignore specific .pdf files until we're ready
+marylie.pdf
 
-# pdfpcnotes
-*.pdfpc
+### ???
+#*.cb
+#*.cb2
+#*.fmt
+#*.fot
+#.*.lb
 
-# sagetex
-*.sagetex.sage
-*.sagetex.py
-*.sagetex.scmd
-
-# scrwfile
-*.wrt
-
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
-
-# pdfcomment
-*.upa
-*.upb
-
-# pythontex
-*.pytxcode
-pythontex-files-*/
-
-# tcolorbox
-*.listing
-
-# thmtools
-*.loe
-
-# TikZ & PGF
-*.dpth
-*.md5
-*.auxlock
-
-# todonotes
-*.tdo
-
-# vhistory
-*.hst
-*.ver
-
-# easy-todo
-*.lod
-
-# xcolor
-*.xcp
-
-# xmpincl
-*.xmpi
-
-# xindy
-*.xdy
-
-# xypic precompiled matrices and outlines
-*.xyc
-*.xyd
-
-# endfloat
-*.ttt
-*.fff
-
-# Latexian
-TSWLatexianTemp*
-
-## Editors:
-# WinEdt
-*.bak
-*.sav
-
-# Texpad
-.texpadtmp
-
-# LyX
-*.lyx~
-
-# Kile
-*.backup
-
-# gummi
-.*.swp
-
-# KBibTeX
-*~[0-9]*
-
-# TeXnicCenter
-*.tps
-
-# auto folder when using emacs and auctex
-./auto/*
-*.el
-
-# expex forward references with \gathertags
-*-tags.tex
-
-# standalone packages
-*.sta
-
-# Makeindex log files
-*.lpz
