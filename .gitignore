@@ -62,7 +62,7 @@ _*/
 tmp/
 
 # ignore specific .pdf files until we're ready
-marylie.pdf
+MaryLiePrimer.pdf
 
 ### ???
 #*.cb
