@@ -1,4 +1,4 @@
-_Please remove any sensitive information (e.g., passwords, API keys) from your submission.
+Please remove any sensitive information (e.g., passwords, API keys) from your submission.
 Please fill in the details for all of the relevant items below.
 Thank you for taking the time to complete this PR.  It will be reviewed as soon as possible.
 
